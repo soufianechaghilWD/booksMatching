@@ -5,6 +5,11 @@ function Books({ books, loading }) {
       {loading && (
         <h3 className="text-center font-semibold">Loading your books...</h3>
       )}
+      {!loading && books === null && (
+        <h3 className="text-center font-semibold">
+          Submit your preferences above
+        </h3>
+      )}
       {books?.length === 0 && (
         <h3 className="text-center font-semibold">
           We don't have any books for you now

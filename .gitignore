@@ -3,3 +3,7 @@ node_modules
 .env
 
 script
+
+.firebase
+.firebaserc
+firebase.json
