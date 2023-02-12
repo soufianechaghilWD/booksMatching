@@ -22,7 +22,7 @@ function Books({ books, loading }) {
               className="bg-seco flex flex-col w-[300px] items-center py-5 mb-5"
               key={book._id}
             >
-              <h2 className="font-bold text-[25px] mb-4">{book.name}</h2>
+              <h2 className="font-bold text-[25px] mb-4 px-2">{book.name}</h2>
               <img src={book.picUrl} className="w-[80%]" />
             </div>
           );
